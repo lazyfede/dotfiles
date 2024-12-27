@@ -1,5 +1,3 @@
-// Waybar config by: lazyfede
-// Last modified: 12 June 2024 
 // -*- mode: jsonc -*-
 {
     "layer": "top", // Waybar at top layer
@@ -24,16 +22,11 @@
 	"temperature",
 	"pulseaudio",
     ],
-    "custom/quick-settings": {
-        "format": "󰣇",
-        "on-click": "ags -t sidebar",
-        "tooltip": false
-    },
     "hyprland/language": {
         "padding": 10,
     },
     "hyprland/workspaces": {
-        "disable-scroll": true,
+        "disable-scroll": false,
         "all-outputs": true,
         "warp-on-scroll": false,
         "format": "{name}",
@@ -113,9 +106,9 @@
     },
     "clock": {
         // "timezone": "America/New_York",
-        "format": "{:%H:%M %d.%m.%Y %A}",
+        "format": "{:%H:%M}",
         "tooltip": false,
-        "on-click": "ags -t calendar"
+        "format-alt": "{:%A - %d.%m.%Y}"
     },
     "cpu": {
         "format": "{usage}% ",
