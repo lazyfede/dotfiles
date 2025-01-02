@@ -1,8 +1,8 @@
 configuration {
 	modi:				"drun";
-	font:				"UbuntuNerdFont-Medium 10";
-	display-drun: 			"";
-	sidebar-mode: 			false;
+	font:				"UbuntuNerdFont-Medium 15";
+	display-drun:			"";
+	sidebar-mode:			false;
 	hover-select:			true;
 	me-select-entry:		"";
 	me-accept-entry:		[MousePrimary];
@@ -22,17 +22,17 @@ configuration {
 
 window {
 	transparency:                   "real";
-	width:			    	20%;
+	width:				20%;
 	y-offset:                       10px;
-	padding: 			10px;
-	location: 			center;
-	border-radius:		25px;
+	padding:			10px;
+	location:			center;
+	border-radius:			25px;
 }
 
 prompt { enabled: false; }
 
 entry {
-	placeholder:			"Applications";
+	placeholder:			"Applications...";
 	expand:                         true;
 	padding:			25px 0% 20px 2.5%;
 	background-color:               @bg;
@@ -43,7 +43,7 @@ entry {
 }
 
 inputbar {
-	children: 			[ prompt, entry ];
+	children:			[ prompt, entry ];
 	background-color:               @bg;
 	text-color:                     @fg;
 	expand:                         false;
@@ -61,7 +61,7 @@ listview {
 
 mainbox {
 	children:                       [ inputbar, listview ];
-	spacing:                       	2%;
+	spacing:			2%;
 	padding:                        2% 1% 2% 1%;
 }
 

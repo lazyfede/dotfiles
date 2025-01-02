@@ -34,7 +34,8 @@ Arch Linux:
 |SUPERSHIFT + RIGHT ARROW |move active window right      |
 |SUPER + mouse wheel down |go to previous workspace     |
 |SUPER + mouse wheel up|go to next workspace    |
-
+|SUPER + O|hide/unhide status bar|
+|SUPER + SHIFT + W|change wallpaper|
 
 
 ## FAQ
